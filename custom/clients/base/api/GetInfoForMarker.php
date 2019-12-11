@@ -159,6 +159,8 @@ WHERE a.id='{$id_record}';";
 
     public function getAllAccountsMap($api, $args){
 
+        global $current_user;
+
         $info=array();
 
         $selectAll="SELECT 
@@ -187,7 +189,7 @@ FROM
     accounts a
     inner join accounts_cstm ac ON a.id=ac.id_c
 inner join users u ON a.assigned_user_id=u.id
-WHERE (ac.gps_latitud_c is not null or  ac.gps_latitud_c != '' ) and (ac.gps_longitud_c is not null or ac.gps_longitud_c !=' ');";
+WHERE (ac.gps_latitud_c is not null or  ac.gps_latitud_c != '' ) and (ac.gps_longitud_c is not null or ac.gps_longitud_c !=' ') AND a.assigned_user_id='{$current_user->id}' AND a.deleted=0;";
 
         $info['records']=array();
         $result = $GLOBALS['db']->query($selectAll);
