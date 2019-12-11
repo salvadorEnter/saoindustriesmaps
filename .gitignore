@@ -1,0 +1,13 @@
+*.log
+/cache
+/config.php
+/config_override.php
+/.htaccess
+/custom/application
+/custom/history
+/custom/modules/*/Ext
+/custom/blowfish
+/upload/*
+/.idea/
+/.DS_Store
+
