@@ -40,61 +40,71 @@ array (
               ),
               3 => 
               array (
+                'name' => 'team_name',
+                'label' => 'LBL_TEAMS',
+                'enabled' => true,
+                'id' => 'TEAM_ID',
+                'link' => true,
+                'sortable' => false,
+                'default' => true,
+              ),
+              4 => 
+              array (
                 'name' => 'quick_contact_c',
                 'label' => 'LBL_QUICK_CONTACT',
                 'enabled' => true,
                 'default' => true,
               ),
-              4 => 
+              5 => 
               array (
                 'name' => 'tag',
                 'label' => 'LBL_TAGS',
                 'enabled' => true,
                 'default' => true,
               ),
-              5 => 
+              6 => 
               array (
                 'name' => 'business_type_c',
                 'label' => 'LBL_BUSINESS_TYPE',
                 'enabled' => true,
                 'default' => true,
               ),
-              6 => 
+              7 => 
               array (
                 'name' => 'industry',
                 'label' => 'LBL_INDUSTRY',
                 'enabled' => true,
                 'default' => true,
               ),
-              7 => 
+              8 => 
               array (
                 'name' => 'visit_c',
                 'label' => 'LBL_VISIT',
                 'enabled' => true,
                 'default' => true,
               ),
-              8 => 
+              9 => 
               array (
                 'name' => 'route_c',
                 'label' => 'LBL_ROUTE',
                 'enabled' => true,
                 'default' => true,
               ),
-              9 => 
+              10 => 
               array (
                 'name' => 'rate_c',
                 'label' => 'LBL_RATE',
                 'enabled' => true,
                 'default' => true,
               ),
-              10 => 
+              11 => 
               array (
                 'name' => 'service_level',
                 'label' => 'LBL_SERVICE_LEVEL',
                 'enabled' => true,
                 'default' => true,
               ),
-              11 => 
+              12 => 
               array (
                 'name' => 'photography_c',
                 'label' => 'LBL_PHOTOGRAPHY',
@@ -103,21 +113,21 @@ array (
                 'width' => '120',
                 'default' => true,
               ),
-              12 => 
+              13 => 
               array (
                 'name' => 'email',
                 'label' => 'LBL_EMAIL_ADDRESS',
                 'enabled' => true,
                 'default' => true,
               ),
-              13 => 
+              14 => 
               array (
                 'name' => 'phone_office',
                 'label' => 'LBL_LIST_PHONE',
                 'enabled' => true,
                 'default' => true,
               ),
-              14 => 
+              15 => 
               array (
                 'name' => 'assigned_user_name',
                 'label' => 'LBL_LIST_ASSIGNED_USER',
@@ -125,7 +135,7 @@ array (
                 'enabled' => true,
                 'default' => true,
               ),
-              15 => 
+              16 => 
               array (
                 'name' => 'date_entered',
                 'type' => 'datetime',
@@ -134,55 +144,55 @@ array (
                 'default' => true,
                 'readonly' => true,
               ),
-              16 => 
+              17 => 
               array (
                 'name' => 'date_modified',
                 'enabled' => true,
                 'default' => true,
               ),
-              17 => 
+              18 => 
               array (
                 'name' => 'twitter',
                 'label' => 'LBL_TWITTER',
                 'enabled' => true,
                 'default' => false,
               ),
-              18 => 
+              19 => 
               array (
                 'name' => 'googleplus',
                 'label' => 'LBL_GOOGLEPLUS',
                 'enabled' => true,
                 'default' => false,
               ),
-              19 => 
+              20 => 
               array (
                 'name' => 'facebook',
                 'label' => 'LBL_FACEBOOK',
                 'enabled' => true,
                 'default' => false,
               ),
-              20 => 
+              21 => 
               array (
                 'name' => 'gps_latitud_c',
                 'label' => 'LBL_GPS_LATITUD',
                 'enabled' => true,
                 'default' => false,
               ),
-              21 => 
+              22 => 
               array (
                 'name' => 'gps_longitud_c',
                 'label' => 'LBL_GPS_LONGITUD',
                 'enabled' => true,
                 'default' => false,
               ),
-              22 => 
+              23 => 
               array (
                 'name' => 'customer_status_c',
                 'label' => 'LBL_CUSTOMER_STATUS',
                 'enabled' => true,
                 'default' => false,
               ),
-              23 => 
+              24 => 
               array (
                 'name' => 'description',
                 'label' => 'LBL_DESCRIPTION',
